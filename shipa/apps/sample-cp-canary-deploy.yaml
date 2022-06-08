@@ -1,10 +1,10 @@
 apiVersion: shipa.crossplane.io/v1alpha1
 kind: AppDeploy
 metadata:
-  name: deploy-of-some-application
+  name: canary-deploy-of-some-application
 spec:
   forProvider:
-    app: crossplane-deployed-app
+    app: crossplane-canary
     image: "docker.io/shipasoftware/bulletinboard:1.0"
     steps: 2
     step-weight: 1

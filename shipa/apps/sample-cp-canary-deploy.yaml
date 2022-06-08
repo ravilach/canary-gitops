@@ -8,7 +8,7 @@ spec:
     image: "docker.io/shipasoftware/bulletinboard:1.0"
     steps: 2
     step-weight: 1
-    step_interval: 1m
+    step_interval: 30s
 
 #other images
 # ghcr.io/podtato-head/podtatoserver:v0.1.1

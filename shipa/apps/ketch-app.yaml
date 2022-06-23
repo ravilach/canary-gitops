@@ -1,0 +1,9 @@
+apiVersion: ketch.io/v1alpha1
+kind: App
+metadata:
+  name: app
+spec:
+  forProvider:
+    name: bulletin
+    image: docker.io/shipasoftware/bulletinboard:1.0
+    framework: dev
